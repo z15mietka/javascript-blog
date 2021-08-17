@@ -11,10 +11,6 @@
       articleSelector: '.post',
       titleSelector: '.post-title',
       titleListSelector: '.titles',
-      articleTagsSelector: '.post-tags .list',
-      articleAuthorSelector: '.post-author',
-      tagsListSelector: '.tags.list',
-      authorsListSelector: '.authors.list',
     };
     
     
