@@ -5,8 +5,6 @@
       articleLink: Handlebars.compile(document.querySelector('#template-article-link').innerHTML),
       tagArticleLink: Handlebars.compile(document.querySelector('#template-tag-article-link').innerHTML),
       authorArticleLink: Handlebars.compile(document.querySelector('#template-author-article-link').innerHTML),
-      tagCloudLink: Handlebars.compile(document.querySelector('#template-tag-cloud-link').innerHTML),
-      authorSidebarLink: Handlebars.compile(document.querySelector('#template-author-sidebar-link').innerHTML)
     }
     
     const opt = {
@@ -17,8 +15,6 @@
       articleAuthorSelector: '.post-author',
       tagsListSelector: '.tags.list',
       authorsListSelector: '.authors.list',
-      cloudClassCount: 5,
-      cloudClassPrefix: 'tag-size-'
     };
     
     
