@@ -60,3 +60,26 @@ console.log(targetArticle);
 /*  add class 'active' to the correct article */
 targetArticle.classList.add('active');
 }
+
+// generateTitleLinks
+
+const generateTitleLinks = function (customSelector = '') {
+    console.log('customSelector: ', customSelector);
+    
+      /* remove contents of titleList */
+      const titleList = document.querySelector(opt.titleListSelector);
+      console.log('titleList: ', titleList);
+      titleList.innerHTML = '';
+    
+      /* for each article */
+      const articles = document.querySelectorAll(opt.articleSelector + customSelector);
+      console.log('articles: ', articles);
+    
+      let html = '';
+    
+      for(let article of articles){
+      console.log('article: ', article);
+    
+        /* get the article id */
+        const articleId = article.getAttribute ('id');
+        console.log('articleId: ', articleId);
