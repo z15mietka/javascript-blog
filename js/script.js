@@ -65,7 +65,7 @@ targetArticle.classList.add('active');
 
 const generateTitleLinks = function (customSelector = '') {
     console.log('customSelector: ', customSelector);
-    
+}  
       /* remove contents of titleList */
       const titleList = document.querySelector(opt.titleListSelector);
       console.log('titleList: ', titleList);
@@ -79,7 +79,8 @@ const generateTitleLinks = function (customSelector = '') {
     
       for(let article of articles){
       console.log('article: ', article);
+      }
     
-        /* get the article id */
-        const articleId = article.getAttribute ('id');
-        console.log('articleId: ', articleId);
+      /* get the article id */
+      const articleId = article.getAttribute ('id');
+      console.log('articleId: ', articleId);
