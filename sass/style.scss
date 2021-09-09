@@ -51,7 +51,7 @@ body {
 .sidebar {
    background-color: #F0DDF0;
    flex: 1 0 0;
-  }
+}
 
 .sidebar2 {
   background-color: #EDEAF2;
@@ -63,7 +63,7 @@ body {
   flex: 2 0 0;
 }
 
-.sidebar, .posts, .sidebar2{
+.sidebar, .posts, .sidebar2 {
   margin-right: 10px;
   padding: 40px;
   border: 1px solid #E8F5DF;
@@ -123,4 +123,48 @@ body {
   p {
     margin: 0 10px 0 0;
   }
+}
+
+/* Tags */
+.tags {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  line-height: 1.0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 70px;
+}
+
+.tags .tag-size-1 {
+  font-size: 15px;
+  padding-right: 10px;
+  color: hsl(69, 70%, 60%);
+}
+
+.tags .tag-size-2 {
+  font-size: 18px;
+  padding-right: 10px;
+  color: hsl(69, 70%, 60%);
+}
+
+.tags .tag-size-3 {
+  font-size: 22px;
+  padding-right: 10px;
+  color: hsl(69, 70%, 60%);
+}
+
+.tags .tag-size-4 {
+  font-size: 25px;
+  padding-right: 10px;
+  color: hsl(69, 70%, 60%);
+}
+
+.tags .tag-size-5 {
+  font-size: 30px;
+  padding-right: 10px;
+  color: hsl(69, 70%, 60%);
 }
