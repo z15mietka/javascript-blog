@@ -49,24 +49,19 @@ body {
 }
 
 .sidebar {
-   background-color: #F0DDF0;
+   background-color: #C4E8DF;
    flex: 1 0 0;
 }
 
-.sidebar2 {
-  background-color: #EDEAF2;
-  flex: 1 0 0;
-}
-
-
 .posts {
+  background-color: #D8F6D6;
   flex: 2 0 0;
 }
 
-.sidebar, .posts, .sidebar2 {
+.sidebar .posts {
   margin-right: 10px;
   padding: 40px;
-  border: 1px solid #E8F5DF;
+  border: 1px solid #EEFBDD;
   border-radius: 5px;
 }
 

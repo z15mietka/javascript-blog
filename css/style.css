@@ -40,26 +40,21 @@ body {
 }
 
 .sidebar {
-  background-color: #5BC0BE;
-  -ms-flex: 1 0 0px;
-      flex: 1 0 0;
-}
-
-.sidebar2 {
-  background-color: #D6F0EF;
+  background-color: #C4E8DF;
   -ms-flex: 1 0 0px;
       flex: 1 0 0;
 }
 
 .posts {
+  background-color: #D8F6D6;
   -ms-flex: 2 0 0px;
       flex: 2 0 0;
 }
 
-.sidebar, .posts, .sidebar2 {
+.sidebar .posts {
   margin-right: 10px;
   padding: 40px;
-  border: 1px solid #edf2f4;
+  border: 1px solid #EEFBDD;
   border-radius: 5px;
 }
 
@@ -112,5 +107,49 @@ body {
 
 .post-tags p {
   margin: 0 10px 0 0;
+}
+
+/* Tags */
+.tags {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  line-height: 1.0;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin-bottom: 70px;
+}
+
+.tags .tag-size-1 {
+  font-size: 15px;
+  padding-right: 10px;
+  color: #cbe052;
+}
+
+.tags .tag-size-2 {
+  font-size: 18px;
+  padding-right: 10px;
+  color: #cbe052;
+}
+
+.tags .tag-size-3 {
+  font-size: 22px;
+  padding-right: 10px;
+  color: #cbe052;
+}
+
+.tags .tag-size-4 {
+  font-size: 25px;
+  padding-right: 10px;
+  color: #cbe052;
+}
+
+.tags .tag-size-5 {
+  font-size: 30px;
+  padding-right: 10px;
+  color: #cbe052;
 }
 /*# sourceMappingURL=style.css.map */
